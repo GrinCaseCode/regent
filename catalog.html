@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.2" />
+	<link rel="stylesheet" href="css/media.css?ver=1.2" />
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<div class="buttons-fixed">
+			<a href="#" class="btn-fixed btn-fixed_catalog">
+				<img src="img/menu.svg" alt="alt">
+			</a>
+			<a href="#" class="btn-fixed btn-fixed_search">
+				<img src="img/search.svg" alt="alt">
+			</a>
+			<a href="#" class="btn-fixed">
+				<img src="img/user.svg" alt="alt">
+			</a>
+			<a href="#" class="btn-fixed">
+				<img src="img/basket.svg" alt="alt">
+				<span class="btn-fixed__value">1</span>
+			</a>
+		</div>
+
+		<header class="header">
+			<div class="header-top">
+				<div class="container">
+					<div class="header__wrapper">
+						<div class="logo-wrap">
+							<a href="#" class="logo">
+								<img src="img/logo.svg" alt="alt">
+							</a>
+							<div class="logo-descr">Оптовая продажа посуды и аксессуаров по РФ</div>
+						</div>
+						<div class="form-search">
+							<form>
+								<input type="text" placeholder="Столовые приборы" required="required">
+								<button class="btn-search">
+									<img src="img/search.svg" alt="alt">
+								</button>
+							</form>
+						</div>
+						<a href="tel:+84955324120" class="phone-main"><img src="img/phone.svg" alt="alt">8 (495) 532-41-20</a>
+						<a href="#" class="btn-header">
+							<img src="img/user.svg" alt="alt">
+						</a>
+						<a href="#" class="btn-header">
+							<img src="img/basket.svg" alt="alt">
+							<span class="btn-header__value">1</span>
+						</a>
+						<span class='sandwich'>
+							<span class='sw-topper'></span>
+							<span class='sw-bottom'></span>
+							<span class='sw-footer'></span>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<div class="container">
+					<div class="header__wrapper">
+						<a href="#" class="btn-catalog"><img src="img/menu.svg" alt="alt">Каталог</a>
+						<div class="catalog-dropdown">
+							<ul class="catalog-dropdown__list">
+								<li><a href="#">Предметы для приготовления и сервировки напитков</a></li>
+								<li><a href="#">Аксессуары для кухни</a></li>
+								<li><a href="#">Тёрки</a></li>
+								<li><a href="#">Термосы и термокружки</a></li>
+								<li><a href="#">Столовые приборы</a></li>
+								<li><a href="#">Чайники из нержавеющей стали</a></li>
+								<li><a href="#">Посуда для приготовления из алюминия</a></li>
+								<li><a href="#">Посуда для приготовления из чугуна</a></li>
+								<li><a href="#">Формы для выпечки из углеродистой стали</a></li>
+								<li><a href="#">Эмалированная посуда ТМ «Regent»</a></li>
+								<li><a href="#">Посуда для приготовления из нержавеющей стали</a></li>
+								<li><a href="#">Формы для выпечки и кухонные принадлежности из силикона</a></li>
+								<li><a href="#">Ножи кухонные</a></li>
+								<li><a href="#">Наборы для сыра линия «FORMAGGIO»</a></li>
+								<li><a href="#">Предметы сервировки ТМ «Regent»</a></li>
+								<li><a href="#">Товары для отдыха</a></li>
+							</ul>
+						</div>
+						<ul class="menu">
+							<li><a href="#">Бренды</a></li>
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Доставка</a></li>
+							<li><a href="#">Гарантия</a></li>
+							<li><a href="#">Скидки</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="menu-mobile">
+				<ul class="menu">
+					<li><a href="#">Бренды</a></li>
+					<li><a href="#">О компании</a></li>
+					<li><a href="#">Доставка</a></li>
+					<li><a href="#">Гарантия</a></li>
+					<li><a href="#">Скидки</a></li>
+				</ul>
+			</div>
+			<div class="menu-overlay"></div>
+		</header>
+
+		<section class="page-catalog">
+			<div class="container">
+				<ul class="breadcrumbs">
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Каталог</a></li>
+					<li>Изделия из дерева</li>
+				</ul>
+				<div class="row">
+					<div class="col-lg-3">
+						<a href="#" class="btn-main btn-main_filter">Фильтры <i class="far fa-filter"></i></a>
+						<div class="sidebar-catalog">
+							<div class="item-sidebar">
+								<div class="item-sidebar__head">Предметы для приготовления <br>и сервировки напитков <i class="far fa-chevron-down"></i></div>
+								<div class="item-sidebar__content">
+									<ul>
+										<li><a href="#">СТМ Линия «ALBERO»</a></li>
+										<li><a href="#">Изделия из дерева Гевея</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="item-sidebar active">
+								<div class="item-sidebar__head">Изделия из дерева <i class="far fa-chevron-down"></i></div>
+								<div class="item-sidebar__content" style="display: block;">
+									<ul>
+										<li><a href="#">СТМ Линия «ALBERO»</a></li>
+										<li><a href="#">Изделия из дерева Гевея</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="item-sidebar">
+								<div class="item-sidebar__head">Аксессуары для кухни <i class="far fa-chevron-down"></i></div>
+								<div class="item-sidebar__content">
+									<ul>
+										<li><a href="#">СТМ Линия «ALBERO»</a></li>
+										<li><a href="#">Изделия из дерева Гевея</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="item-sidebar">
+								<div class="item-sidebar__head">Тёрки <i class="far fa-chevron-down"></i></div>
+								<div class="item-sidebar__content">
+									<ul>
+										<li><a href="#">СТМ Линия «ALBERO»</a></li>
+										<li><a href="#">Изделия из дерева Гевея</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="item-sidebar">
+								<div class="item-sidebar__head">Термосы и термокружки <i class="far fa-chevron-down"></i></div>
+								<div class="item-sidebar__content">
+									<ul>
+										<li><a href="#">СТМ Линия «ALBERO»</a></li>
+										<li><a href="#">Изделия из дерева Гевея</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="item-sidebar">
+								<div class="item-sidebar__head">Столовые приборы <i class="far fa-chevron-down"></i></div>
+								<div class="item-sidebar__content">
+									<ul>
+										<li><a href="#">СТМ Линия «ALBERO»</a></li>
+										<li><a href="#">Изделия из дерева Гевея</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="item-sidebar">
+								<div class="item-sidebar__head">Чайники из нержавеющей стали <i class="far fa-chevron-down"></i></div>
+								<div class="item-sidebar__content">
+									<ul>
+										<li><a href="#">СТМ Линия «ALBERO»</a></li>
+										<li><a href="#">Изделия из дерева Гевея</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="item-sidebar">
+								<div class="item-sidebar__head">Посуда для приготовления из алюминия <i class="far fa-chevron-down"></i></div>
+								<div class="item-sidebar__content">
+									<ul>
+										<li><a href="#">СТМ Линия «ALBERO»</a></li>
+										<li><a href="#">Изделия из дерева Гевея</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="item-sidebar">
+								<div class="item-sidebar__head">Посуда для приготовления из чугуна <i class="far fa-chevron-down"></i></div>
+								<div class="item-sidebar__content">
+									<ul>
+										<li><a href="#">СТМ Линия «ALBERO»</a></li>
+										<li><a href="#">Изделия из дерева Гевея</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="item-sidebar">
+								<div class="item-sidebar__head">Формы для выпечки из углеродистой стали <i class="far fa-chevron-down"></i></div>
+								<div class="item-sidebar__content">
+									<ul>
+										<li><a href="#">СТМ Линия «ALBERO»</a></li>
+										<li><a href="#">Изделия из дерева Гевея</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="item-sidebar">
+								<div class="item-sidebar__head">Эмалированная посуда ТМ «Regent» <i class="far fa-chevron-down"></i></div>
+								<div class="item-sidebar__content">
+									<ul>
+										<li><a href="#">СТМ Линия «ALBERO»</a></li>
+										<li><a href="#">Изделия из дерева Гевея</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="item-sidebar">
+								<div class="item-sidebar__head">Посуда для приготовления из нержавеющей стали <i class="far fa-chevron-down"></i></div>
+								<div class="item-sidebar__content">
+									<ul>
+										<li><a href="#">СТМ Линия «ALBERO»</a></li>
+										<li><a href="#">Изделия из дерева Гевея</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="item-sidebar">
+								<div class="item-sidebar__head">Формы для выпечки и кухонные принадлежности из силикона <i class="far fa-chevron-down"></i></div>
+								<div class="item-sidebar__content">
+									<ul>
+										<li><a href="#">СТМ Линия «ALBERO»</a></li>
+										<li><a href="#">Изделия из дерева Гевея</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="item-sidebar">
+								<div class="item-sidebar__head">Ножи кухонные <i class="far fa-chevron-down"></i></div>
+								<div class="item-sidebar__content">
+									<ul>
+										<li><a href="#">СТМ Линия «ALBERO»</a></li>
+										<li><a href="#">Изделия из дерева Гевея</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="item-sidebar">
+								<div class="item-sidebar__head">Наборы для сыра линия «FORMAGGIO» <i class="far fa-chevron-down"></i></div>
+								<div class="item-sidebar__content">
+									<ul>
+										<li><a href="#">СТМ Линия «ALBERO»</a></li>
+										<li><a href="#">Изделия из дерева Гевея</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="item-sidebar">
+								<div class="item-sidebar__head">Предметы сервировки ТМ«Regent» <i class="far fa-chevron-down"></i></div>
+								<div class="item-sidebar__content">
+									<ul>
+										<li><a href="#">СТМ Линия «ALBERO»</a></li>
+										<li><a href="#">Изделия из дерева Гевея</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="item-sidebar">
+								<div class="item-sidebar__head">Товары для отдыха <i class="far fa-chevron-down"></i></div>
+								<div class="item-sidebar__content">
+									<ul>
+										<li><a href="#">СТМ Линия «ALBERO»</a></li>
+										<li><a href="#">Изделия из дерева Гевея</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-9">
+						<h1 class="title-section">Изделия из дерева</h1>
+						<div class="sorting-catalog">
+							<div class="item-select">
+								<select>
+									<option value="1">Сортировка</option>
+									<option value="1">Сортировка</option>
+									<option value="1">Сортировка</option>
+									<option value="1">Сортировка</option>
+									<option value="1">Сортировка</option>
+								</select>
+							</div>
+							<div class="item-select">
+								<select>
+									<option value="1">Линейки</option>
+									<option value="1">Линейки</option>
+									<option value="1">Линейки</option>
+									<option value="1">Линейки</option>
+									<option value="1">Линейки</option>
+								</select>
+							</div>
+							<div class="item-select">
+								<select>
+									<option value="1">Популярное</option>
+									<option value="1">Популярное</option>
+									<option value="1">Популярное</option>
+									<option value="1">Популярное</option>
+									<option value="1">Популярное</option>
+								</select>
+							</div>
+							<div class="item-select">
+								<select>
+									<option value="1">Акции</option>
+									<option value="1">Акции</option>
+									<option value="1">Акции</option>
+									<option value="1">Акции</option>
+									<option value="1">Акции</option>
+								</select>
+							</div>
+						</div>
+						<div class="row row_catalog">
+							<div class="col-lg-3 col-md-4 col-6">
+								<div class="item-catalog">
+									<div class="tag-catalog tag-catalog_promo">акция</div>
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__title">Доска разделочная <br>круглая, Bosco 24х24х1 см</div>
+									<a href="#" class="link-page">Подробнее</a>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-4 col-6">
+								<div class="item-catalog">
+									<div class="tag-catalog tag-catalog_promo">акция</div>
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__title">Доска разделочная <br>круглая, Bosco 24х24х1 см</div>
+									<a href="#" class="link-page">Подробнее</a>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-4 col-6">
+								<div class="item-catalog">
+									<div class="tag-catalog tag-catalog_promo">акция</div>
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__title">Доска разделочная <br>круглая, Bosco 24х24х1 см</div>
+									<a href="#" class="link-page">Подробнее</a>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-4 col-6">
+								<div class="item-catalog">
+									<div class="tag-catalog tag-catalog_promo">акция</div>
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__title">Доска разделочная <br>круглая, Bosco 24х24х1 см</div>
+									<a href="#" class="link-page">Подробнее</a>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-4 col-6">
+								<div class="item-catalog">
+									<div class="tag-catalog tag-catalog_promo">акция</div>
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__title">Доска разделочная <br>круглая, Bosco 24х24х1 см</div>
+									<a href="#" class="link-page">Подробнее</a>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-4 col-6">
+								<div class="item-catalog">
+									<div class="tag-catalog tag-catalog_promo">акция</div>
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__title">Доска разделочная <br>круглая, Bosco 24х24х1 см</div>
+									<a href="#" class="link-page">Подробнее</a>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-4 col-6">
+								<div class="item-catalog">
+									<div class="tag-catalog tag-catalog_promo">акция</div>
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__title">Доска разделочная <br>круглая, Bosco 24х24х1 см</div>
+									<a href="#" class="link-page">Подробнее</a>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-4 col-6">
+								<div class="item-catalog">
+									<div class="tag-catalog tag-catalog_promo">акция</div>
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__title">Доска разделочная <br>круглая, Bosco 24х24х1 см</div>
+									<a href="#" class="link-page">Подробнее</a>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-4 col-6">
+								<div class="item-catalog">
+									<div class="tag-catalog tag-catalog_promo">акция</div>
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__title">Доска разделочная <br>круглая, Bosco 24х24х1 см</div>
+									<a href="#" class="link-page">Подробнее</a>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-4 col-6">
+								<div class="item-catalog">
+									<div class="tag-catalog tag-catalog_promo">акция</div>
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__title">Доска разделочная <br>круглая, Bosco 24х24х1 см</div>
+									<a href="#" class="link-page">Подробнее</a>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-4 col-6">
+								<div class="item-catalog">
+									<div class="tag-catalog tag-catalog_promo">акция</div>
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__title">Доска разделочная <br>круглая, Bosco 24х24х1 см</div>
+									<a href="#" class="link-page">Подробнее</a>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-4 col-6">
+								<div class="item-catalog">
+									<div class="tag-catalog tag-catalog_promo">акция</div>
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__title">Доска разделочная <br>круглая, Bosco 24х24х1 см</div>
+									<a href="#" class="link-page">Подробнее</a>
+								</div>
+							</div>
+						</div>
+						<div class="pager">
+							<a class="prev page-numbers" href="#"><i class="far fa-chevron-left"></i></a>
+							<span aria-current="page" class="page-numbers current" href="#">1</span> 
+							<a class="page-numbers" href="#">2</a> 
+							<a class="page-numbers" href="#">3</a> 
+							<a class="next page-numbers" href="#"><i class="far fa-chevron-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2 col-6">
+						<div class="footer__logo">
+							<a href="#" class="logo">
+								<img src="img/logo2.svg" alt="alt">
+							</a>
+							<div class="logo-descr">Оптовая продажа посуды и аксессуаров по РФ</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-6">
+						<ul class="footer__nav footer__nav_big">
+							<li><a href="#">Бренды</a></li>
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Доставка</a></li>
+							<li><a href="#">Гарантия</a></li>
+							<li><a href="#">Скидки</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-6">
+						<ul class="footer__nav footer__nav_columns">
+							<li><a href="#">Доски разделочные</a></li>
+							<li><a href="#">Изделия для напитков из стекла</a></li>
+							<li><a href="#">Кухонный инвентарь</a></li>
+							<li><a href="#">Посуда для приготовления из алюминия</a></li>
+							<li><a href="#">Посуда для приготовления из чугуна</a></li>
+							<li><a href="#">Сита и дуршлаги</a></li>
+							<li><a href="#">Тёрки</a></li>
+							<li><a href="#">Термосы и термокружки</a></li>
+							<li><a href="#">Формы для выпечки из силикона</a></li>
+							<li><a href="#">Формы для выпечки из углеродистой стали</a></li>
+							<li><a href="#">Чайники</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-2">
+						<div class="footer__contacts">
+							<a href="tel:+84955324120" class="phone-main">8 (495) 532-41-20</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg">
+							<a href="#">Политика конфиденциальности </a>
+						</div>
+						<div class="col-lg">
+							<p>г. Симферополь © Copyright  2023 г.</p>
+						</div>
+						<div class="col-lg">
+							<div class="create">Сделано в <a href="#"><img src="img/copy.svg" alt="alt"></a></div>
+						</div>
+						<div class="col-xl-4 col-lg">
+							<a href="#" class="btn_top"><i class="far fa-arrow-up"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.2"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

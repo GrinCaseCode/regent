@@ -706,6 +706,12 @@
 	.item-question__head i {
 		font-size: 12px;
 	}
+	.section-text p {
+		margin-bottom: 15px;
+	}
+	.section-text {
+		padding-bottom: 20px;
+	}
 }
 
 /* Small Devices, Tablets */
