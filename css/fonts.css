@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Helios';
+    src: url('../fonts/heliosc.eot');
+    src: url('../fonts/heliosc.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/heliosc.woff') format('woff'),
+    url('../fonts/heliosc.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Helios';
+    src: url('../fonts/heliosc_bold.eot');
+    src: url('../fonts/heliosc_bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/heliosc_bold.woff') format('woff'),
+    url('../fonts/heliosc_bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    }
