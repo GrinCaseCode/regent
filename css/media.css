@@ -674,7 +674,7 @@
 		height: auto;
 	}
 	.menu-overlay {
-		top: 100px;
+		top: 53px;
 		left: 0;
 		right: 0;
 		bottom: 50px;
@@ -900,6 +900,7 @@
 	.form-search {
 		display: block !important;
 	}
+	.menu-overlay,
 	.menu-mobile {
 		display: none !important;
 	}

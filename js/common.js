@@ -50,6 +50,7 @@ $(".item-question__head").click(function() {
 		if ($(".catalog-dropdown").is(":hidden")) {
 			$(".catalog-dropdown").slideDown(200);
 			$(this).addClass("active");
+			$(".menu-overlay").fadeIn(200);
 		} else {
 			$(".catalog-dropdown").slideUp(200);
 			$(this).removeClass("active");
