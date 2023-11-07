@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.1" />
+	<link rel="stylesheet" href="css/media.css?ver=1.1" />
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<div class="buttons-fixed">
+			<a href="#" class="btn-fixed btn-fixed_catalog">
+				<img src="img/menu.svg" alt="alt">
+			</a>
+			<a href="#" class="btn-fixed btn-fixed_search">
+				<img src="img/search.svg" alt="alt">
+			</a>
+			<a href="#" class="btn-fixed">
+				<img src="img/user.svg" alt="alt">
+			</a>
+			<a href="#" class="btn-fixed">
+				<img src="img/basket.svg" alt="alt">
+				<span class="btn-fixed__value">1</span>
+			</a>
+		</div>
+
+		<header class="header">
+			<div class="header-top">
+				<div class="container">
+					<div class="header__wrapper">
+						<div class="logo-wrap">
+							<a href="#" class="logo">
+								<img src="img/logo.svg" alt="alt">
+							</a>
+							<div class="logo-descr">Оптовая продажа посуды и аксессуаров по РФ</div>
+						</div>
+						<div class="form-search">
+							<form>
+								<input type="text" placeholder="Столовые приборы" required="required">
+								<button class="btn-search">
+									<img src="img/search.svg" alt="alt">
+								</button>
+							</form>
+						</div>
+						<a href="tel:+84955324120" class="phone-main"><img src="img/phone.svg" alt="alt">8 (495) 532-41-20</a>
+						<a href="#" class="btn-header">
+							<img src="img/user.svg" alt="alt">
+						</a>
+						<a href="#" class="btn-header">
+							<img src="img/basket.svg" alt="alt">
+							<span class="btn-header__value">1</span>
+						</a>
+						<span class='sandwich'>
+							<span class='sw-topper'></span>
+							<span class='sw-bottom'></span>
+							<span class='sw-footer'></span>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<div class="container">
+					<div class="header__wrapper">
+						<a href="#" class="btn-catalog"><img src="img/menu.svg" alt="alt">Каталог</a>
+						<div class="catalog-dropdown">
+							<ul class="catalog-dropdown__list">
+								<li><a href="#">Предметы для приготовления и сервировки напитков</a></li>
+								<li><a href="#">Аксессуары для кухни</a></li>
+								<li><a href="#">Тёрки</a></li>
+								<li><a href="#">Термосы и термокружки</a></li>
+								<li><a href="#">Столовые приборы</a></li>
+								<li><a href="#">Чайники из нержавеющей стали</a></li>
+								<li><a href="#">Посуда для приготовления из алюминия</a></li>
+								<li><a href="#">Посуда для приготовления из чугуна</a></li>
+								<li><a href="#">Формы для выпечки из углеродистой стали</a></li>
+								<li><a href="#">Эмалированная посуда ТМ «Regent»</a></li>
+								<li><a href="#">Посуда для приготовления из нержавеющей стали</a></li>
+								<li><a href="#">Формы для выпечки и кухонные принадлежности из силикона</a></li>
+								<li><a href="#">Ножи кухонные</a></li>
+								<li><a href="#">Наборы для сыра линия «FORMAGGIO»</a></li>
+								<li><a href="#">Предметы сервировки ТМ «Regent»</a></li>
+								<li><a href="#">Товары для отдыха</a></li>
+							</ul>
+						</div>
+						<ul class="menu">
+							<li><a href="#">Бренды</a></li>
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Доставка</a></li>
+							<li><a href="#">Гарантия</a></li>
+							<li><a href="#">Скидки</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="menu-mobile">
+				<ul class="menu">
+					<li><a href="#">Бренды</a></li>
+					<li><a href="#">О компании</a></li>
+					<li><a href="#">Доставка</a></li>
+					<li><a href="#">Гарантия</a></li>
+					<li><a href="#">Скидки</a></li>
+				</ul>
+			</div>
+			<div class="menu-overlay"></div>
+		</header>
+
+		<section class="billbord">
+			<div class="container">
+				<ul class="slider-billbord">
+					<li>
+						<a href="#" class="item-billbord">
+							<span class="item-billbord__time">Период проведения 01.11 — 30.11.2023</span>
+							<span class="item-billbord__title">СКИДКИ <span>от <strong>10 до 80%</strong></span></span>
+							<span class="item-billbord__descr">более чем на 250 позиций из ПРАЙС-ЛИСТА</span>
+							<span class="item-billbord__image">
+								<img src="img/billbord1.jpg" alt="alt">
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="item-billbord">
+							<span class="item-billbord__time">Период проведения 01.11 — 30.11.2023</span>
+							<span class="item-billbord__title">СКИДКИ <span>от <strong>10 до 80%</strong></span></span>
+							<span class="item-billbord__descr">более чем на 250 позиций из ПРАЙС-ЛИСТА</span>
+							<span class="item-billbord__image">
+								<img src="img/billbord1.jpg" alt="alt">
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="item-billbord">
+							<span class="item-billbord__time">Период проведения 01.11 — 30.11.2023</span>
+							<span class="item-billbord__title">СКИДКИ <span>от <strong>10 до 80%</strong></span></span>
+							<span class="item-billbord__descr">более чем на 250 позиций из ПРАЙС-ЛИСТА</span>
+							<span class="item-billbord__image">
+								<img src="img/billbord1.jpg" alt="alt">
+							</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="advantages">
+			<div class="container">
+				<h2 class="title-section">Почему с нами выгодно работать</h2>
+				<div class="advantages-block">
+					<div class="row">
+						<div class="col-lg-3 col-6">
+							<div class="item-advantage">
+								<div class="item-advantage__icon">
+									<img src="img/ic_avd1.svg" alt="alt">
+								</div>
+								<p>В наличии более 1000 наименований продукции</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-6">
+							<div class="item-advantage">
+								<div class="item-advantage__icon">
+									<img src="img/ic_avd2.svg" alt="alt">
+								</div>
+								<p>Бережная доставка от 2-х рабочих дней</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-6">
+							<div class="item-advantage">
+								<div class="item-advantage__icon">
+									<img src="img/ic_avd3.svg" alt="alt">
+								</div>
+								<p>Предоставляем гарантию на товары 2 года</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-6">
+							<div class="item-advantage">
+								<div class="item-advantage__icon">
+									<img src="img/ic_avd4.svg" alt="alt">
+								</div>
+								<p>Собственный склад более 100 кв.м</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="categories">
+			<div class="container">
+				<h2 class="title-section">В нашем каталоге представлено более 1000 наименований продукции</h2>
+				<div class="row">
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="#" class="item-category">
+							<span class="item-category__image">
+								<img src="img/category1.png" alt="alt">
+							</span>
+							<span class="item-category__title">Предметы для приготовления и сервировки напитков</span>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="#" class="item-category">
+							<span class="item-category__image">
+								<img src="img/category2.png" alt="alt">
+							</span>
+							<span class="item-category__title">Изделия из дерева</span>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="#" class="item-category">
+							<span class="item-category__image">
+								<img src="img/category3.png" alt="alt">
+							</span>
+							<span class="item-category__title">Аксессуары для кухни</span>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="#" class="item-category">
+							<span class="item-category__image">
+								<img src="img/category4.png" alt="alt">
+							</span>
+							<span class="item-category__title">Тёрки</span>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="#" class="item-category">
+							<span class="item-category__image">
+								<img src="img/category5.png" alt="alt">
+							</span>
+							<span class="item-category__title">Термосы и термокружки</span>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="#" class="item-category">
+							<span class="item-category__image">
+								<img src="img/category6.png" alt="alt">
+							</span>
+							<span class="item-category__title">Столовые приборы</span>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="#" class="item-category">
+							<span class="item-category__image">
+								<img src="img/category7.png" alt="alt">
+							</span>
+							<span class="item-category__title">Чайники из нержавеющей стали</span>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="#" class="item-category">
+							<span class="item-category__image">
+								<img src="img/category8.png" alt="alt">
+							</span>
+							<span class="item-category__title">Посуда для приготовления из алюминия</span>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="#" class="item-category">
+							<span class="item-category__image">
+								<img src="img/category9.png" alt="alt">
+							</span>
+							<span class="item-category__title">Посуда для приготовления <br>из чугуна</span>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="#" class="item-category">
+							<span class="item-category__image">
+								<img src="img/category10.png" alt="alt">
+							</span>
+							<span class="item-category__title">Формы для выпечки из углеродистой стали</span>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="#" class="item-category">
+							<span class="item-category__image">
+								<img src="img/category11.png" alt="alt">
+							</span>
+							<span class="item-category__title">Эмалированная посуда <br>ТМ «Regent»</span>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="#" class="item-category">
+							<span class="item-category__image">
+								<img src="img/category12.png" alt="alt">
+							</span>
+							<span class="item-category__title">Посуда для приготовления из нержавеющей стали</span>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="#" class="item-category">
+							<span class="item-category__image">
+								<img src="img/category13.png" alt="alt">
+							</span>
+							<span class="item-category__title">Формы для выпечки и кухонные принадлежности из силикона</span>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="#" class="item-category">
+							<span class="item-category__image">
+								<img src="img/category14.png" alt="alt">
+							</span>
+							<span class="item-category__title">Ножи кухонные</span>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="#" class="item-category">
+							<span class="item-category__image">
+								<img src="img/category15.png" alt="alt">
+							</span>
+							<span class="item-category__title">Наборы для сыра линия «FORMAGGIO»</span>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="#" class="item-category">
+							<span class="item-category__image">
+								<img src="img/category16.png" alt="alt">
+							</span>
+							<span class="item-category__title">Предметы сервировки <br>ТМ «Regent»</span>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="#" class="item-category">
+							<span class="item-category__image">
+								<img src="img/category17.png" alt="alt">
+							</span>
+							<span class="item-category__title">Товары для отдыха</span>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="#" class="btn-category">Перейти <br>в каталог</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="catalog">
+			<div class="container">
+				<div class="head-section">
+					<h2 class="title-section">Акционные товары</h2>
+					<a href="#" class="link-page">Все товары</a>
+				</div>
+				<ul class="slider-catalog">
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_promo">акция</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__title">Доска разделочная <br>круглая, Bosco 24х24х1 см</div>
+							<a href="#" class="link-page">Подробнее</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_promo">акция</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__title">Доска разделочная <br>круглая, Bosco 24х24х1 см</div>
+							<a href="#" class="link-page">Подробнее</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_promo">акция</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__title">Доска разделочная <br>круглая, Bosco 24х24х1 см</div>
+							<a href="#" class="link-page">Подробнее</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_promo">акция</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__title">Доска разделочная <br>круглая, Bosco 24х24х1 см</div>
+							<a href="#" class="link-page">Подробнее</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_promo">акция</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__title">Доска разделочная <br>круглая, Bosco 24х24х1 см</div>
+							<a href="#" class="link-page">Подробнее</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_promo">акция</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__title">Доска разделочная <br>круглая, Bosco 24х24х1 см</div>
+							<a href="#" class="link-page">Подробнее</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="partnership">
+			<div class="container">
+				<div class="partnership-block">
+					<div class="row">
+						<div class="col-lg-7">
+							<h2 class="title-main"><strong>Хочешь стать партнёром?</strong></h2>
+							<ul class="list-page">
+								<li><strong>Минимальная оптовая <br>закупка</strong> всего от 30 000 Р</li>
+								<li><strong>Выгодная оптовая система</strong> <br>гибкая система скидок при закупке оптом</li>
+								<li><strong>Удобная оплата</strong> <br>оплата онлайн выбранного товара более чем 20 способами</li>
+								<li><strong>Всегда на связи</strong> <br>быстрое получение консультации по стоимости, качеству, цене и способах доставки товаров</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="partnership-form">
+					<div class="title-middle">Стать партнёром легко</div>
+					<div class="descr-form">Оставьте свои контакты и менеджер свяжется с вами в ближайшее время</div>
+					<form>
+						<div class="row">
+							<div class="col-lg-3 col-md-6">
+								<div class="item-form">
+									<input type="text" placeholder="Имя" required="required">
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<div class="item-form">
+									<input type="text" placeholder="ИНН / ОГРН " required="required">
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<div class="item-form">
+									<input type="text" placeholder="Телефон" class="input-phone" required="required">
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<div class="item-form">
+									<input type="email" placeholder="E-mail" required="required">
+								</div>
+							</div>
+						</div>
+						<div class="partnership-form__bottom">
+							<div class="file-upload">
+								<label><input type="file" name="file"><i class="far fa-paperclip"></i> Загрузить карточку предприятия</label>
+								<div class="name-upload"></div>
+							</div>
+							<input type="submit" class="btn-main" value="Стать партнером">
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" required="required" checked="checked" />
+									<span>Согласие на обработку персональных данных</span>
+								</label>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<section class="catalog">
+			<div class="container">
+				<div class="head-section">
+					<h2 class="title-section">Новые поступления</h2>
+					<a href="#" class="link-page">Все товары</a>
+				</div>
+				<ul class="slider-catalog">
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_new">новинка</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog2.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__title">Доска разделочная <br>прямоугольная, Bosco <br>33х17х1,2</div>
+							<a href="#" class="link-page">Подробнее</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_new">новинка</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog2.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__title">Доска разделочная <br>прямоугольная, Bosco <br>33х17х1,2</div>
+							<a href="#" class="link-page">Подробнее</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_new">новинка</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog2.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__title">Доска разделочная <br>прямоугольная, Bosco <br>33х17х1,2</div>
+							<a href="#" class="link-page">Подробнее</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_new">новинка</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog2.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__title">Доска разделочная <br>прямоугольная, Bosco <br>33х17х1,2</div>
+							<a href="#" class="link-page">Подробнее</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_new">новинка</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog2.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__title">Доска разделочная <br>прямоугольная, Bosco <br>33х17х1,2</div>
+							<a href="#" class="link-page">Подробнее</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="presentation">
+			<div class="container">
+				<div class="presentation-block">
+					<div class="row align-items-center">
+						<div class="col-lg-6">
+							<h2 class="title-main">Заполните форму и наш менеджер вышлет вам <strong>Каталог новинок 2024</strong></h2>
+							<form>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="item-form">
+											<input type="text" placeholder="Имя" required="required">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="item-form">
+											<input type="text" placeholder="Название организации" required="required">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="item-form">
+											<input type="text" placeholder="Телефон" class="input-phone" required="required">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="item-form">
+											<input type="email" placeholder="E-mail" required="required">
+										</div>
+									</div>
+									<div class="col-md-6 col_checkbox">
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" required="required" checked="checked" />
+												<span>Согласие на обработку персональных данных</span>
+											</label>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<input type="submit" class="btn-main" value="Получить каталог">
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="col-lg-6">
+							<div class="presentation-block__image">
+								<img src="img/presentation.png" alt="alt">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="brands">
+			<div class="container">
+				<h2 class="title-section">Бренды</h2>
+				<ul class="slider-brands">
+					<li>
+						<div class="item-brand">
+							<img src="img/brand1.png" alt="alt">
+						</div>
+					</li>
+					<li>
+						<div class="item-brand">
+							<img src="img/brand2.png" alt="alt">
+						</div>
+					</li>
+					<li>
+						<div class="item-brand">
+							<img src="img/brand3.png" alt="alt">
+						</div>
+					</li>
+					<li>
+						<div class="item-brand">
+							<img src="img/brand4.png" alt="alt">
+						</div>
+					</li>
+					<li>
+						<div class="item-brand">
+							<img src="img/brand1.png" alt="alt">
+						</div>
+					</li>
+					<li>
+						<div class="item-brand">
+							<img src="img/brand2.png" alt="alt">
+						</div>
+					</li>
+					<li>
+						<div class="item-brand">
+							<img src="img/brand3.png" alt="alt">
+						</div>
+					</li>
+					<li>
+						<div class="item-brand">
+							<img src="img/brand4.png" alt="alt">
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="questions">
+			<div class="container">
+				<h2 class="title-page">Часто задаваемые вопросы</h2>
+				<div class="row">
+					<div class="col-lg-8">
+						<div class="item-question active">
+							<div class="item-question__head">Как долго будут собирать мой заказ? <i class="fas fa-chevron-down"></i></div>
+							<div class="item-question__content" style="display: block;">
+								<p>Стандартный срок сборки заказов на самовывоз из магазинаОт 30 минут до 2-х дней. В 90% случаев собираем заказы в первые 2 часа.Заказы на доставку собираются комплектуются в течении 2-х дней после оформления.</p>
+								<p>Срок доставки указан в корзине при оформлении заказа.</p>
+							</div>
+						</div>
+						<div class="item-question">
+							<div class="item-question__head">Как получить консультацию по товару? <i class="fas fa-chevron-down"></i></div>
+							<div class="item-question__content">
+								<p>Стандартный срок сборки заказов на самовывоз из магазинаОт 30 минут до 2-х дней. В 90% случаев собираем заказы в первые 2 часа.Заказы на доставку собираются комплектуются в течении 2-х дней после оформления.</p>
+								<p>Срок доставки указан в корзине при оформлении заказа.</p>
+							</div>
+						</div>
+						<div class="item-question">
+							<div class="item-question__head">Как долго ждать возврата денег за товар, оплаченного на сайте <i class="fas fa-chevron-down"></i></div>
+							<div class="item-question__content">
+								<p>Стандартный срок сборки заказов на самовывоз из магазинаОт 30 минут до 2-х дней. В 90% случаев собираем заказы в первые 2 часа.Заказы на доставку собираются комплектуются в течении 2-х дней после оформления.</p>
+								<p>Срок доставки указан в корзине при оформлении заказа.</p>
+							</div>
+						</div>
+						<div class="item-question">
+							<div class="item-question__head">Деньги не вернулись за товар оплаченный на сайте <i class="fas fa-chevron-down"></i></div>
+							<div class="item-question__content">
+								<p>Стандартный срок сборки заказов на самовывоз из магазинаОт 30 минут до 2-х дней. В 90% случаев собираем заказы в первые 2 часа.Заказы на доставку собираются комплектуются в течении 2-х дней после оформления.</p>
+								<p>Срок доставки указан в корзине при оформлении заказа.</p>
+							</div>
+						</div>
+						<div class="item-question">
+							<div class="item-question__head">Меня не устроил товар при получении оплаченный картой на сайте <i class="fas fa-chevron-down"></i></div>
+							<div class="item-question__content">
+								<p>Стандартный срок сборки заказов на самовывоз из магазинаОт 30 минут до 2-х дней. В 90% случаев собираем заказы в первые 2 часа.Заказы на доставку собираются комплектуются в течении 2-х дней после оформления.</p>
+								<p>Срок доставки указан в корзине при оформлении заказа.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="block-form">
+							<div class="title-middle">Остались вопросы?</div>
+							<div class="descr-form">Заполните форму и мы ответим на все интересующие вопросы</div>
+							<form>
+								<div class="item-form">
+									<input type="text" placeholder="Имя" required="required">
+								</div>
+								<div class="item-form">
+									<input type="text" placeholder="Телефон" class="input-phone" required="required">
+								</div>
+								<div class="item-form">
+									<textarea placeholder="Ваш вопрос" required="required"></textarea>
+								</div>
+								<input type="submit" class="btn-main" value="Задать вопрос">
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" required="required" checked="checked" />
+										<span>Согласие на обработку персональных данных</span>
+									</label>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2 col-6">
+						<div class="footer__logo">
+							<a href="#" class="logo">
+								<img src="img/logo2.svg" alt="alt">
+							</a>
+							<div class="logo-descr">Оптовая продажа посуды и аксессуаров по РФ</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-6">
+						<ul class="footer__nav footer__nav_big">
+							<li><a href="#">Бренды</a></li>
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Доставка</a></li>
+							<li><a href="#">Гарантия</a></li>
+							<li><a href="#">Скидки</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-6">
+						<ul class="footer__nav footer__nav_columns">
+							<li><a href="#">Доски разделочные</a></li>
+							<li><a href="#">Изделия для напитков из стекла</a></li>
+							<li><a href="#">Кухонный инвентарь</a></li>
+							<li><a href="#">Посуда для приготовления из алюминия</a></li>
+							<li><a href="#">Посуда для приготовления из чугуна</a></li>
+							<li><a href="#">Сита и дуршлаги</a></li>
+							<li><a href="#">Тёрки</a></li>
+							<li><a href="#">Термосы и термокружки</a></li>
+							<li><a href="#">Формы для выпечки из силикона</a></li>
+							<li><a href="#">Формы для выпечки из углеродистой стали</a></li>
+							<li><a href="#">Чайники</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-2">
+						<div class="footer__contacts">
+							<a href="tel:+84955324120" class="phone-main">8 (495) 532-41-20</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg">
+							<a href="#">Политика конфиденциальности </a>
+						</div>
+						<div class="col-lg">
+							<p>г. Симферополь © Copyright  2023 г.</p>
+						</div>
+						<div class="col-lg">
+							<div class="create">Сделано в <a href="#"><img src="img/copy.svg" alt="alt"></a></div>
+						</div>
+						<div class="col-xl-4 col-lg">
+							<a href="#" class="btn_top"><i class="far fa-arrow-up"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.1"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
