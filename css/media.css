@@ -712,6 +712,9 @@
 	.section-text {
 		padding-bottom: 20px;
 	}
+	.item-sidebar__head:hover {
+		background-color: transparent;
+	}
 }
 
 /* Small Devices, Tablets */
