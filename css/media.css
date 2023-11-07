@@ -864,6 +864,9 @@
 	.questions {
 		padding-top: 15px;
 	}
+	.title-page {
+		font-size: 20px;
+	}
 }
 
 /* Custom, iPhone Retina */
