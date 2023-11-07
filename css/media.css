@@ -805,6 +805,9 @@
 	.brands {
 		padding-bottom: 10px;
 	}
+	.item-question__content p:last-child {
+		margin-bottom: 0;
+	}
 }
 
 /* Extra Small Devices, Phones */
