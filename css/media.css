@@ -135,8 +135,9 @@
 		padding: 14px 13px;
 	}
 	.tag-catalog {
-		padding: 4px 10px;
+		padding: 0px 10px;
 		padding-left: 13px;
+		height: 29px;
 		top: 9px;
 		font-size: 11px;
 	}
@@ -588,6 +589,7 @@
 	}
 	.buttons-fixed {
 		padding: 0 5px;
+		padding-right: 10px;
 		bottom: 0;
 		left: 0;
 		width: 100%;
@@ -797,6 +799,12 @@
 	.next.page-numbers {
 		right: 8px;
 	}
+	.brands .title-section {
+		padding-bottom: 13px;
+	}
+	.brands {
+		padding-bottom: 10px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -852,6 +860,9 @@
 	}
 	.partnership {
 		padding-bottom: 10px;
+	}
+	.questions {
+		padding-top: 15px;
 	}
 }
 
