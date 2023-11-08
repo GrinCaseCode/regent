@@ -1066,6 +1066,9 @@
 	.tabs li {
 		padding: 0 5px;
 	}
+	.tag-catalog {
+		height: 26px;
+	} 
 }
 
 /* Custom, iPhone Retina */
