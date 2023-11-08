@@ -208,6 +208,59 @@ $(".item-question__head").click(function() {
 		]
 	});
 
+$('.slider-for').slick({
+		arrows: false,
+		dots: false,
+		infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		asNavFor: '.slider-nav',
+		touchThreshold: 1000,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+	});
+
+	$('.slider-nav').slick({
+		arrows: false,
+		dots: false,
+		infinite: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		vertical: true,
+		verticalSwiping: true,
+		asNavFor: '.slider-for',
+		touchThreshold: 1000,
+		focusOnSelect: true,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		responsive: [
+		{
+			breakpoint: 768,
+			settings: {
+				vertical: false,
+				verticalSwiping: false,
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 3,
+				vertical: false,
+				verticalSwiping: false,
+			}
+		}
+		]
+	});
+
+	$('.tabs li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(this).parents().find(".tab-pane").fadeOut(0);
+		var selectTab = $(this).attr("href");
+		$(selectTab).fadeIn(200);
+	}); 
+
 		$(".item-sidebar__head").click(function() {
 		$(this).parent().toggleClass("active");
 		$(this).siblings(".item-sidebar__content").slideToggle(200);
@@ -218,6 +271,38 @@ $(".item-question__head").click(function() {
 	$(".btn-main_filter").click(function(e) {
 		e.preventDefault();
 		$(".sidebar-catalog").slideToggle(200);
+	});
+
+	jQuery('.quantity').each(function() {
+		var spinner = jQuery(this),
+		input = spinner.find('input[type="number"]'),
+		btnUp = spinner.find('.quantity-up'),
+		btnDown = spinner.find('.quantity-down'),
+		min = input.attr('min'),
+		max = input.attr('max');
+
+		btnUp.click(function() {
+			var oldValue = parseFloat(input.val());
+			if (oldValue >= max) {
+				var newVal = oldValue;
+			} else {
+				var newVal = oldValue + 1;
+			}
+			spinner.find("input").val(newVal);
+			spinner.find("input").trigger("change");
+		});
+
+		btnDown.click(function() {
+			var oldValue = parseFloat(input.val());
+			if (oldValue <= min) {
+				var newVal = oldValue;
+			} else {
+				var newVal = oldValue - 1;
+			}
+			spinner.find("input").val(newVal);
+			spinner.find("input").trigger("change");
+		});
+
 	});
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
