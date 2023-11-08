@@ -18,8 +18,8 @@
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.2" />
-	<link rel="stylesheet" href="css/media.css?ver=1.2" />
+	<link rel="stylesheet" href="css/main.css?ver=1.3" />
+	<link rel="stylesheet" href="css/media.css?ver=1.3" />
 </head>
 <body>
 
@@ -32,7 +32,7 @@
 			<a href="#" class="btn-fixed btn-fixed_search">
 				<img src="img/search.svg" alt="alt">
 			</a>
-			<a href="#" class="btn-fixed">
+			<a href="#modal-login" class="btn-fixed fancybox">
 				<img src="img/user.svg" alt="alt">
 			</a>
 			<a href="#" class="btn-fixed">
@@ -60,7 +60,7 @@
 							</form>
 						</div>
 						<a href="tel:+84955324120" class="phone-main"><img src="img/phone.svg" alt="alt">8 (495) 532-41-20</a>
-						<a href="#" class="btn-header">
+						<a href="#modal-login" class="btn-header fancybox">
 							<img src="img/user.svg" alt="alt">
 						</a>
 						<a href="#" class="btn-header">
@@ -771,6 +771,77 @@
 		
 	</div>
 
+	<div id="modal-login" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-middle">Вход в личный кабинет</div>
+			<form>
+				<div class="item-form">
+					<input type="text" placeholder="Логин" required="required">
+				</div>
+				<div class="item-form">
+					<input type="password" placeholder="Пароль" required="required">
+				</div>
+				<a href="#" class="link-main">Забыли пароль?</a>
+				<input type="submit" class="btn-main" value="Войти">
+				<a href="#modal-registration" class="link-main link-main_big fancybox">Зарегистрироваться</a>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" required="required" checked="checked" />
+						<span>Согласие на обработку персональных данных</span>
+					</label>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div id="modal-registration" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-middle">Добро пожаловать!</div>
+			<div class="descr-form">Введите личные данные, чтобы присоединиться</div>
+			<form>
+				<div class="columns-form">
+					<div class="item-form">
+						<input type="text" placeholder="Логин" required="required">
+					</div>
+					<div class="item-form">
+						<input type="text" placeholder="Телефон" class="input-phone" required="required">
+					</div>
+					<div class="item-form">
+						<input type="email" placeholder="E-mail" required="required">
+					</div>
+					<div class="item-form">
+						<input type="password" placeholder="Пароль" required="required">
+					</div>
+					<div class="item-form">
+						<input type="password" placeholder="Повторить пароль" required="required">
+					</div>
+					<div class="item-form">
+						<input type="text" placeholder="Город" required="required">
+					</div>
+					<div class="item-form">
+						<input type="text" placeholder="Адрес" required="required">
+					</div>
+					<div class="item-form">
+						<input type="text" placeholder="Сфера деятельности" required="required">
+					</div>
+					<div class="item-form">
+						<input type="text" placeholder="Название организации" required="required">
+					</div>
+					<div class="item-form">
+						<input type="text" placeholder="ИНН / КПП" required="required">
+					</div>
+				</div>
+				<input type="submit" class="btn-main" value="Зарегистрироваться">
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" required="required" checked="checked" />
+						<span>Согласие на обработку персональных данных</span>
+					</label>
+				</div>
+			</form>
+		</div>
+	</div>
+
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
@@ -784,7 +855,7 @@
 <script src="libs/scroll2id/PageScroll2id.min.js"></script>
 <script src="libs/mask/jquery.maskedinput.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-<script src="js/common.js?ver=1.2"></script>
+<script src="js/common.js?ver=1.3"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
