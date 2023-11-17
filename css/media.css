@@ -887,6 +887,10 @@
 .catalog-dropdown__haschild.active > a::after {
 	transform: rotate(270deg);
 }
+.catalog-dropdown__list > li > a:hover {
+	background: initial;
+	text-shadow: initial;
+}
 .catalog-dropdown__list > li.active > a {
 background: #FDEB98;
 	text-shadow: 0 0 1px #000;

@@ -1169,8 +1169,8 @@ form {
 .catalog-dropdown > ul {
 	width: 336px;
 	border-radius: 10px;
-background: #FAFAFA;
-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+	background: #FAFAFA;
+	box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
 }
 .catalog-dropdown::-webkit-scrollbar {
 	-webkit-appearance: none;
@@ -1200,7 +1200,7 @@ box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
 	height: 16px;
 	font-size: 11px;
 	right: 9px;
-		content: "\f054";
+	content: "\f054";
 	color: #000;
 	top: 10px;
 	position: absolute;
@@ -1231,7 +1231,7 @@ box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
 	position: relative;
 }
 .catalog-dropdown__list > li > a:hover {
-background: #FDEB98;
+	background: #FDEB98;
 	text-shadow: 0 0 1px #000;
 }
 .catalog-dropdown__list > li:first-child > a {
@@ -1244,7 +1244,7 @@ background: #FDEB98;
 	width: 340px;
 	padding: 14px 19px;
 	border-radius: 0 10px 10px 0;
-background: #FAFAFA;
+	background: #FAFAFA;
 	top: 0;
 	left: 100%;
 	position: absolute;
