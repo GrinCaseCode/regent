@@ -75,6 +75,19 @@ $(".item-question__head").click(function() {
 		}
 	});
 
+	$(".catalog-dropdown__haschild > a").click(function(e) {
+		e.preventDefault();
+		$(this).parent().siblings("li").removeClass("active");
+		$(this).parent().siblings("li").find("ul").slideUp(200);
+		if ($(this).siblings("ul").is(":hidden")) {
+			$(this).siblings("ul").slideDown(200);
+			$(this).parent().addClass("active");
+		} else {
+			$(this).siblings("ul").slideUp(200);
+			$(this).parent().removeClass("active");
+		}
+	});
+
 	$(".menu-overlay").click(function() {
 		$(".menu-mobile").slideUp(200);
 		$(".sandwich").removeClass("active");
